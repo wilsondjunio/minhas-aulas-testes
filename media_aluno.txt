@@ -1,0 +1,13 @@
+print ("nota1")
+nota1 = float(input())
+print ("nota2")
+nota2 = float(input())
+print ("nota3")
+nota3 = float(input())
+
+media = (nota1 + nota2 + nota3)/3
+
+if media >=7:
+    print("aluno aprovado")
+elif media <7:
+    print("aluno reprovado")
